@@ -27,9 +27,9 @@ def random_data():
 	return insert_queries
 
 def execute_queries(list_queries_string=[], querie_type=''):
-	db_name = 'rainbow_database'
-	db_user = 'unicorn_user'
-	db_pass = 'magical_password'
+	db_name = 'prueba'#db_name = 'rainbow_database'
+	db_user = 'postgres'#db_user = 'unicorn_user'
+	db_pass = 'my_password' #db_pass = 'magical_password'
 	db_host = 'database-service' # este es el servicio database declarado en el docker-compose
 	db_port = '5432'
 	# conexion a la base de datos POSTGRESQL
